@@ -1,1 +1,1 @@
-﻿var Key = { Copyright: "Copyright (c) https://vrgeorge0047.github.io/", Key: "vG9IfLGgH/w$2N85pYhbgd"};
+var Key = { Copyright: "vrgeorge (c) 2020", Key: "Rt4nXxRXn6IRUH4qpXcfhc"};
