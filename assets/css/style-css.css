@@ -249,15 +249,18 @@ btn-get-started.live-menu{
 
 #hero {
   width: 100%;
-  height: 100vh;
+  
+  height: 0;
+  padding-bottom: 75%;
   background: url(../img/hero-bg.jpg) top 35px center;
   background-size: cover;
   position: relative;
 }
 
 #altar {
-  width: 100%;
-  height: 100vh;
+  width: 100%;  
+  height: 0;
+  padding-bottom: 75%;
   background: url(../img/altar.png) top center;
   background-size: cover;
   position: relative;
@@ -266,6 +269,12 @@ btn-get-started.live-menu{
 @media (min-width: 1024px) {
   #hero,#altar {
     background-attachment: fixed;
+  }
+}
+
+@media (max-width: 991px) {
+  .hhp {
+    margin-top: 40px !important;
   }
 }
 

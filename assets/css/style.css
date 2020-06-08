@@ -248,9 +248,18 @@ btn-get-started.live-menu{
 }
 
 #hero {
-  width: 100%;
-  height: 100vh;
+  width: 100%;  
+  height: 0;
+  padding-bottom: 75%;
   background: url(../img/hero-bg.jpg) top 35px center;
+  background-size: cover;
+  position: relative;
+}
+
+.myyclass{
+  height: 0;
+    padding-bottom: 75%;width: 100%;
+  background: url(../img/altar.png) top center;
   background-size: cover;
   position: relative;
 }
@@ -267,6 +276,23 @@ btn-get-started.live-menu{
   #hero,#altar {
     background-attachment: fixed;
   }
+}
+
+@media (max-width: 991px) {
+  .hhp {
+    margin-top: 40px !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .church-old-photo {
+    bottom: 175px !important;
+  }
+}
+
+
+.church-old-photo{
+  bottom: 25px;
 }
 
 #hero:before {
