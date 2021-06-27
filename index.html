@@ -25,15 +25,24 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style-css.css" rel="stylesheet">
-<style>
+  
+  <style>
     .disabled-div {
      pointer-events: none;
   cursor: default;
   text-decoration: none;
   color: #ccc; 
     }
-    
+    .myyclass {
+    height: 0;
+    padding-bottom: 75%;
+    width: 100%;
+    background: url(../img/altar-1.png) top center;
+    background-size: cover;
+    position: relative;
+}
   </style>
+
 </head>
 
 <body>
@@ -46,7 +55,7 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
            <li class="menu-active"><a href="#hero">Home</a></li>
-          <li class="livemenu disabled-div" style="display:none"><a href="#hero-live">Live</a></li>
+          <li class="livemenu disabled-div"><a href="#hero-live">Live</a></li>
         </ul>
       </nav>
     </div>
@@ -58,19 +67,27 @@
         <h5><strong>St. George Jacobite Syrian Church</strong></h5>
         <h5>Cheruthottukunnel</h5>
         <h5><strong>Under the Holy Apostolic See of Antioch and All the East.</strong></h5>
-        <a href="#hero-live" class="btn-get-started live-menu disabled-div" style="visibility: hidden;display: inline;">Live</a>
+        <a href="#hero-live" class="btn-get-started live-menu" style="margin-left: 0px !important;">Live</a>
       </div>
 
-      <div class="arrow bounce" style="bottom: 0;   position: absolute;">
+      <div class="arrow bounce disabled-div" style="bottom: 0;   position: absolute;">
         <a class="fa fa-angle-down" style="color: #fff !important;" href="#about"></a>
       </div>
     </div>
   </section>
 
   <main id="main">
-    <section id="hero-live" style="visibility:hidden !important;height: 0px !important;">
+    
+    
+    
+    <div id="altarnew" class="hero-container myyclass">
+    </div>
+    
+    
+    
+    <section id="hero-live">
       <div class="videoContainer">
-          <iframe class="videoContainer__video" width="1920" height="1080" src="https://www.youtube.com/embed/tgHU6eZGV3o?modestbranding=1&autoplay=1&controls=0&fs=0&loop=1&rel=0&showinfo=0&disablekb=1&playlist=IsBInsOj8TY" frameborder="0"></iframe>
+          <iframe class="videoContainer__video" width="1920" height="1080" src="http://www.youtube.com/embed/tgHU6eZGV3o?modestbranding=1&autoplay=1&controls=0&fs=0&loop=1&rel=0&showinfo=0&disablekb=1&playlist=IsBInsOj8TY" frameborder="0"></iframe>
       </div>
          </div>
     </section>
